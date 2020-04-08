@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2019, 7:42:37 PM
+    Author     : Tam
+*/
+.root {
+    -fx-background-color: bisque;
+    -fx-font-family: "Comic Sans MS";    
+}
+
+.score {
+    -fx-fill: crimson;
+    -fx-font-size: 50;
+    -fx-alignment: CENTER;
+}
+
+.label {
+    -fx-font-size: 25;
+}
+
+.textfield {
+    -fx-background-color: bisque;
+    -fx-font-size: 25;
+    -fx-pref-width: 1;
+    -fx-cursor: null;
+}
+
+.gameBoard {
+    -fx-vgap: 20;
+    -fx-alignment: CENTER;
+    -fx-pref-width: 300;
+    -fx-border-color: brown;
+}
+
+.xToken {
+    -fx-stroke: darkgoldenrod;
+    -fx-stroke-width: 5;
+}
+
+.oToken {
+    -fx-stroke: firebrick;
+    -fx-fill: none;
+    -fx-stroke-width: 5;
+}
+
+.cell {
+    -fx-border-color: brown;
+    -fx-pref-width: 1000;
+    -fx-pref-height: 1000;
+}
+
+.player {
+    -fx-background-image: url("../image/playerIcon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+}
+
+.titleScreen {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #ca9c65,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #ca9c65);
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 4,0,0,1 );
+    -fx-font-size: 20;
+    -fx-padding: 10 50 10 50;
+    -fx-text-fill: darkred;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #ca502b 0%, #ca7240 100%),
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #a34313);
+    -fx-background-insets: 0,0 0 5 0, 0 0 5 0, 0 0 5 0;
+}
+
+.button:pressed, .button:focus {
+    -fx-background-color: #ca502b;
+}

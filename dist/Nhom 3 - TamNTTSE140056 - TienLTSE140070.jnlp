@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Nhom 3 - TamNTTSE140056 - TienLTSE140070.jnlp">
+  <information>
+    <title>Nhom 3 - TamNTTSE140056 - TienLTSE140070</title>
+    <vendor>Tam</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Nhom_3_-_TamNTTSE140056_-_TienLTSE140070.jar" size="336464" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="tictactoedemo.TicTacToeDemo"  name="Nhom 3 - TamNTTSE140056 - TienLTSE140070" />
+  <update check="always"/>
+</jnlp>

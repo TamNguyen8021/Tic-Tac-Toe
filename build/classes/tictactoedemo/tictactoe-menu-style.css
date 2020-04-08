@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2019, 10:28:11 AM
+    Author     : Tam
+*/
+.root {
+    -fx-background-color: burlywood;
+    -fx-font-family: "Comic Sans MS";
+    -fx-background-image: url("../image/menuBackground.jpg");
+}
+
+.menu {
+    -fx-spacing: 30;
+    -fx-alignment: CENTER;
+}
+
+.title {
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(#ca282f 0%, #ca4910 50%, #ca5f10 100%);
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 10 );
+}
+
+.button {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #ca9c65,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #ca9c65);
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4,0,0,1 );
+    -fx-font-size: 25;
+    -fx-padding: 10 50 10 50;
+    -fx-text-fill: darkred;   
+    -fx-pref-width: 350;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #ca502b 0%, #ca7240 100%),
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #a34313);
+    -fx-background-insets: 0,0 0 5 0, 0 0 5 0, 0 0 5 0;
+}
+
+.button:pressed, .button:focus {
+    -fx-background-color: #ca502b;
+}
